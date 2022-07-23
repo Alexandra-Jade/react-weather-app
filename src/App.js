@@ -24,7 +24,7 @@ function App() {
                     id="city-input"
                     autocomplete="off"
                   />
-                          < Weather city="Cape Town"/>
+                < Weather city="Cape Town"/>
 
                 </div>
                 <div class="col-3">
@@ -64,7 +64,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <div class="col-4">
+              <div class="col-4 mb-3">
                 <div class="d-flex flex-row-reverse bd-highlight">
                   <ul>
                     <li>
@@ -76,6 +76,9 @@ function App() {
                   </ul>
                 </div>
               </div>
+              <div class="container">
+        <div class="col">12° 11° 10° 10° 12°</div>
+      </div>
             </div>
           </div>
         </div>
