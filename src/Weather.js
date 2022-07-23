@@ -1,5 +1,7 @@
 import React from "react";
 import axios from "axios";
+
+
  
 
 export default function Weather(props) {
@@ -12,5 +14,5 @@ export default function Weather(props) {
 
 
     axios.get(apiUrl).then(handleResponse);
-    return <h2> Hello from Alex </h2>;
+    return <h2>  </h2>;
 }
