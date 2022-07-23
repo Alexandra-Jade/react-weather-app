@@ -12,7 +12,7 @@ function App() {
       <div class="container">
         <div class="weather-app-wrapper border border-white p-4 rounded-3">
           <div class="weather-app">
-          <div><ul class="list-group list-group-horizontal" ><li a href="" class="p-2">Namibia  </li><li a href="" class="p-2">Botswana</li><li  a href="" class="p-2">Mozambique</li></ul></div>
+          <div className="navigationItems"><span class="me-2">Windhoek</span><span>| </span><span class="me-2">Gaborone</span><span>| </span><span class="me-2">Harare</span><span>| </span><span>Maputo</span> </div>
             <form id="search-form" class="mb-3">
               <div class="row">
                <div></div>
@@ -38,6 +38,7 @@ function App() {
             </form>
             <div class="overview">
               <h1 id="city">Cape Town</h1>
+             
               <ul>
                 <li>
                   Last updated: Saturday June 11, 19:41 <span id="date"></span>
