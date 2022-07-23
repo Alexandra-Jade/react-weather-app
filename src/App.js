@@ -12,7 +12,7 @@ function App() {
       <div class="container">
         <div class="weather-app-wrapper border border-white p-4 rounded-3">
           <div class="weather-app">
-          <div><ul class="list-group list-group-horizontal" ><li a href="" class="m-2 p-2">Namibia  </li><li a href="" class="m-2 p-2">Botswana</li><li  a href="" class="m-2 p-2">Mozambique</li></ul></div>
+          <div><ul class="list-group list-group-horizontal" ><li a href="" class="p-2">Namibia  </li><li a href="" class="p-2">Botswana</li><li  a href="" class="p-2">Mozambique</li></ul></div>
             <form id="search-form" class="mb-3">
               <div class="row">
                <div></div>
