@@ -15,6 +15,6 @@ export default function FormattedDate(props) {
   
     
 return <div>
-    {day} {hours}:{minutes} 11:00
+    {day} {hours}:{minutes}
 </div>;
 }
