@@ -37,7 +37,7 @@ axios.get(apiUrl).then(handleResponse);
                 if (index < 5) {
                 return (
                     <div className="col" key={index}>
-                    <WeatherForecastDay day={dailyForecast} />
+                    <WeatherForecastDay data={dailyForecast} />
                  </div>    
                 );
               } else {
