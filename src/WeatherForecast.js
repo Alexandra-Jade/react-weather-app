@@ -16,7 +16,7 @@ useEffect(() => {
 
     function handleResponse(response) {
     setForecast(response.data.daily);
-    setlLoaded (true);
+    setLoaded (true);
 }
 
 function load () {
@@ -48,12 +48,9 @@ axios.get(apiUrl).then(handleResponse);
             </div>
         </div>
     );
-
-
    } else {
 load()
 return null;
    }
-
-    
+   
     }
